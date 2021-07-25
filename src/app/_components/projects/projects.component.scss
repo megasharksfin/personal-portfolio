@@ -1,7 +1,8 @@
-.scroll-container{
+.wrapper{
+  padding-top: 56px;
+  height: calc(100vh - 56px);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  overflow: auto;
 }
