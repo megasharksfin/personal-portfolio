@@ -1,4 +1,6 @@
 <div class="scroll-container">
-  <app-home></app-home>
-  <app-projects></app-projects>
+  <app-navbar
+    (scrollToSection)="scrollToSection($event)"></app-navbar>
+  <app-home class="home"></app-home>
+  <app-projects class="projects"></app-projects>
 </div>
