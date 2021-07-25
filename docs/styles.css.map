@@ -1,0 +1,1 @@
+{"version":3,"sources":["./src/styles.scss"],"names":[],"mappings":"AAEA;EACE;EACA;AADF;;AAIA;EAAO;EAAW;EAAY;AAE9B,C","file":"styles.css","sourcesContent":["@import './colors.scss';\r\n\r\nhtml, body{\r\n  height: 100%;\r\n  width: 100%;\r\n}\r\n\r\nbody { margin: 0; padding: 0; font-family: Roboto, \"Helvetica Neue\", sans-serif; }\r\n\r\n"],"sourceRoot":"webpack:///"}
