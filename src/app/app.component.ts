@@ -14,4 +14,9 @@ export class AppComponent {
     this.renderer.listen('window', 'scroll', (event) => {
     });
   }
+
+  scrollToSection(section: string): void {
+    const scrollTo = this.renderer.selectRootElement(`.${section}`, true);
+    scrollTo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 }
